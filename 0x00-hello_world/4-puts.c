@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/bas
 #include<stdio.h>
 
 /**
