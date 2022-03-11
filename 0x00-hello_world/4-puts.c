@@ -1,16 +1,22 @@
 #!/bin/bash
-#include <stdio.h>
+#include<stdio.h>
+
 /**
- *  * main - display a message
- *   * Return: display the message
- *    */
+ *
+ *  * main - Entry point
+ *
+ *   *
+ *
+ *    * Return: Always 0 (Success)
+ *
+ *     */
+
 int main(void)
 
 {
 
-		char comment[] = "\"Programming is like building a multilingual puzzle";
+		puts("\"Programming is like building a multilingual puzzle");
 
-			puts(comment);
+			return (0);
 
-				return (0);
 }
