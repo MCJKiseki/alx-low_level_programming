@@ -1,9 +1,9 @@
 #include <stdio.h>b
-/*
+/**
  * main - Entry point
- * Description
+ *
  * Return: Always 0 (Success) 
-*/
+git add*/
 
 int main(void)
 {
