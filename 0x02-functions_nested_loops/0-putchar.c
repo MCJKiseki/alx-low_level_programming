@@ -1,20 +1,20 @@
-#include <stdio.h>
-
+#include "main.h"
 /**
-  * main - Prints the numbers since 0 to 9
-  *
-  * Return: Always (Success)
-*/
+ * main -  prints _purtchar, followed by a new line
+ * Return: Always 0 (Success)
+ */
 int main(void)
+
 {
-	int n;
-
-	for (n = '0'; n <= '9'; n++)
-	{
-		putchar(n);
-	}
-
-	putchar('\n');
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
 
 	return (0);
 }
