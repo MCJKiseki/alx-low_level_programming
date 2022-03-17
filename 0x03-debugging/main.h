@@ -1,14 +1,11 @@
-#include "main.h"
-/** main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-	int i;
+#ifndef MAIN_H
+#define MAIN_H
 
-	i=0;
-	positive_or_negative(i);
+#include <stdio.h>
 
-	return (0);
-}
+void positive_or_negative(int i);
+int largest_number(int, int, int);
+int convert_day(int month, int day);
+void print_remaining_days(int month, int day, int year);
+
+#endif /* MAIN_H */
