@@ -1,1 +1,1 @@
-strings 2 readme 
+readme file
